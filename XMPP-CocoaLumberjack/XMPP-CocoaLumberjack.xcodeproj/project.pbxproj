@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09A5329522C4369200A094A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A5329422C4369200A094A2 /* AppDelegate.m */; };
+		09A5329822C4369200A094A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A5329722C4369200A094A2 /* ViewController.m */; };
+		09A5329B22C4369200A094A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A5329922C4369200A094A2 /* Main.storyboard */; };
+		09A5329D22C4369400A094A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A5329C22C4369400A094A2 /* Assets.xcassets */; };
+		09A532A022C4369400A094A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A5329E22C4369400A094A2 /* LaunchScreen.storyboard */; };
+		09A532A322C4369400A094A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A532A222C4369400A094A2 /* main.m */; };
+		09A532C222C44ADC00A094A2 /* XMPPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A532BB22C44ADC00A094A2 /* XMPPFramework.framework */; };
+		09A532C322C44ADC00A094A2 /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A532BC22C44ADC00A094A2 /* KissXML.framework */; };
+		09A532C422C44ADC00A094A2 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A532BD22C44ADC00A094A2 /* CocoaLumberjack.framework */; };
+		09A532C522C44ADC00A094A2 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A532BE22C44ADC00A094A2 /* CocoaAsyncSocket.framework */; };
+		09A532C622C44ADC00A094A2 /* libidn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A532BF22C44ADC00A094A2 /* libidn.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09A5329022C4369200A094A2 /* XMPP-CocoaLumberjack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XMPP-CocoaLumberjack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A5329322C4369200A094A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09A5329422C4369200A094A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09A5329622C4369200A094A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		09A5329722C4369200A094A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		09A5329A22C4369200A094A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09A5329C22C4369400A094A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09A5329F22C4369400A094A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09A532A122C4369400A094A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A532A222C4369400A094A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09A532BB22C44ADC00A094A2 /* XMPPFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XMPPFramework.framework; sourceTree = "<group>"; };
+		09A532BC22C44ADC00A094A2 /* KissXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KissXML.framework; sourceTree = "<group>"; };
+		09A532BD22C44ADC00A094A2 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
+		09A532BE22C44ADC00A094A2 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		09A532BF22C44ADC00A094A2 /* libidn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libidn.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09A5328D22C4369200A094A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A532C322C44ADC00A094A2 /* KissXML.framework in Frameworks */,
+				09A532C422C44ADC00A094A2 /* CocoaLumberjack.framework in Frameworks */,
+				09A532C522C44ADC00A094A2 /* CocoaAsyncSocket.framework in Frameworks */,
+				09A532C222C44ADC00A094A2 /* XMPPFramework.framework in Frameworks */,
+				09A532C622C44ADC00A094A2 /* libidn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09A5328722C4369200A094A2 = {
+			isa = PBXGroup;
+			children = (
+				09A5329222C4369200A094A2 /* XMPP-CocoaLumberjack */,
+				09A5329122C4369200A094A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09A5329122C4369200A094A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09A5329022C4369200A094A2 /* XMPP-CocoaLumberjack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09A5329222C4369200A094A2 /* XMPP-CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				09A532BA22C44ADC00A094A2 /* Frameworks */,
+				09A5329322C4369200A094A2 /* AppDelegate.h */,
+				09A5329422C4369200A094A2 /* AppDelegate.m */,
+				09A5329622C4369200A094A2 /* ViewController.h */,
+				09A5329722C4369200A094A2 /* ViewController.m */,
+				09A5329922C4369200A094A2 /* Main.storyboard */,
+				09A5329C22C4369400A094A2 /* Assets.xcassets */,
+				09A5329E22C4369400A094A2 /* LaunchScreen.storyboard */,
+				09A532A122C4369400A094A2 /* Info.plist */,
+				09A532A222C4369400A094A2 /* main.m */,
+			);
+			path = "XMPP-CocoaLumberjack";
+			sourceTree = "<group>";
+		};
+		09A532BA22C44ADC00A094A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09A532BB22C44ADC00A094A2 /* XMPPFramework.framework */,
+				09A532BC22C44ADC00A094A2 /* KissXML.framework */,
+				09A532BD22C44ADC00A094A2 /* CocoaLumberjack.framework */,
+				09A532BE22C44ADC00A094A2 /* CocoaAsyncSocket.framework */,
+				09A532BF22C44ADC00A094A2 /* libidn.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09A5328F22C4369200A094A2 /* XMPP-CocoaLumberjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A532A622C4369400A094A2 /* Build configuration list for PBXNativeTarget "XMPP-CocoaLumberjack" */;
+			buildPhases = (
+				09A5328C22C4369200A094A2 /* Sources */,
+				09A5328D22C4369200A094A2 /* Frameworks */,
+				09A5328E22C4369200A094A2 /* Resources */,
+				09A532B922C44A8100A094A2 /* Carthage Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XMPP-CocoaLumberjack";
+			productName = "XMPP-CocoaLumberjack";
+			productReference = 09A5329022C4369200A094A2 /* XMPP-CocoaLumberjack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09A5328822C4369200A094A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = mruiz723;
+				TargetAttributes = {
+					09A5328F22C4369200A094A2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 09A5328B22C4369200A094A2 /* Build configuration list for PBXProject "XMPP-CocoaLumberjack" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09A5328722C4369200A094A2;
+			productRefGroup = 09A5329122C4369200A094A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09A5328F22C4369200A094A2 /* XMPP-CocoaLumberjack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09A5328E22C4369200A094A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A532A022C4369400A094A2 /* LaunchScreen.storyboard in Resources */,
+				09A5329D22C4369400A094A2 /* Assets.xcassets in Resources */,
+				09A5329B22C4369200A094A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09A532B922C44A8100A094A2 /* Carthage Copy Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/CocoaAsyncSocket.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/KissXML.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/libidn.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/XMPPFramework.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CocoaLumberjack.framework",
+			);
+			name = "Carthage Copy Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09A5328C22C4369200A094A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A5329822C4369200A094A2 /* ViewController.m in Sources */,
+				09A532A322C4369400A094A2 /* main.m in Sources */,
+				09A5329522C4369200A094A2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09A5329922C4369200A094A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09A5329A22C4369200A094A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09A5329E22C4369400A094A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09A5329F22C4369400A094A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09A532A422C4369400A094A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09A532A522C4369400A094A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09A532A722C4369400A094A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALVM8N53R4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XMPP-CocoaLumberjack/Frameworks",
+				);
+				INFOPLIST_FILE = "XMPP-CocoaLumberjack/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mruiz723.XMPP-CocoaLumberjack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09A532A822C4369400A094A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALVM8N53R4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XMPP-CocoaLumberjack/Frameworks",
+				);
+				INFOPLIST_FILE = "XMPP-CocoaLumberjack/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mruiz723.XMPP-CocoaLumberjack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09A5328B22C4369200A094A2 /* Build configuration list for PBXProject "XMPP-CocoaLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A532A422C4369400A094A2 /* Debug */,
+				09A532A522C4369400A094A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09A532A622C4369400A094A2 /* Build configuration list for PBXNativeTarget "XMPP-CocoaLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A532A722C4369400A094A2 /* Debug */,
+				09A532A822C4369400A094A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09A5328822C4369200A094A2 /* Project object */;
+}
